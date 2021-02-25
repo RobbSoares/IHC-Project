@@ -404,6 +404,10 @@ table td {
         width: 20rem;
     }
 
+    .sign-image.under-construction img {
+        width: 40rem;
+    }
+
     .header {
         padding: 1rem;
     }
