@@ -310,6 +310,19 @@ section .container-section .block {
     width: 50rem;
 }
 
+.input-container.product-request .button.add {
+    margin-top: 0;
+    background-color: #4e62c7;
+    color: white;
+    transition: 300ms all ease-in-out;
+}
+
+
+.input-container.product-request .button.add:hover {
+    background-color: rgb(13, 119, 190);
+
+}
+
 table {
     font-size: 3rem;
 }
@@ -320,6 +333,10 @@ table th {
 }
 
 table td {
+    text-align: left;
+}
+
+table tr td:nth-child(2){
     text-align: center;
 }
 
