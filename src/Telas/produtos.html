@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head class="background">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../assets/styles/style.css">
+    </head>
+
+    <body class="background">
+
+        <header class="header">
+            <div class="title">
+                <h1>Shopping</h1>
+            </div>
+
+
+            <div class="logout">
+                <p><a href="homepage.html">Voltar</a></p>
+            </div>
+        </header>
+
+        <section class="input-container product-request">
+
+            <div class="grid">
+
+                <fieldset class="fieldset">
+                    <form action="./pagamento.html">
+                        <div class="input-group">
+                            <label for="product-code">Código do produto </label>
+                            <input type="text" name="product-code" id="product-code">
+                        </div>
+                        <div class="input-group">
+                            <label for="product-name">Nome do produto</label>
+                            <input type="text" name="product-name" id="product-name">
+                        </div>
+
+                        <button type="reset" class="button add">Adicionar produto</button>
+                        <button type="submit" class="button">Finalizar</button>
+                    </form>
+                </fieldset>
+
+
+                <div class="product-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Preço</th>
+                                <th>Cod. do Produto</th>
+                                <th>Nome do Produto</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>R$180,00</td>
+                                <td>FHASDJ2502</td>
+                                <td>Ray-ban Optical</td>
+                            </tr>
+                            <tr>
+                                <td>R$200,00</td>
+                                <td>CASFGRJ1785</td>
+                                <td>Armani</td>
+                            </tr>
+                            <tr>
+                                <td>R$40,00</td>
+                                <td>GFDGFG4856</td>
+                                <td>Prorider</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <div class="sign-image">
+                    <img src="../assets/images/carrinho.svg" alt="">
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

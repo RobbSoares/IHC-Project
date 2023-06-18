@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Own Project</title>
+    <link rel="stylesheet" href="../assets/styles/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="background-gradient draw">
+            <img src="../assets/images/draw.svg" alt="">
+        </div>
+
+        <section class="input-container">
+            <h1>Login</h1>
+
+            <fieldset>
+                <!-- action="./homepage.html" -->
+                <form id="loginForm">
+
+                    <div class="input-group">
+                        <label for="email">E-mail </label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="password">Senha </label>
+                        <input type="password" name="password" id="password">
+
+                        <div class="forgot-sign">
+                            <p><a href="#">Esqueci minha senha</a></p>
+                            <p><a href="./cadastro.html">Cadastrar-se</a></p>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="button" id="entrar">Entrar</button>
+                </form>
+            </fieldset>
+        </section>
+    </div>
+
+    <script src="../assets/script/login.js"></script>
+</body>
+
+</html>
